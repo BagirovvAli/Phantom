@@ -1,0 +1,53 @@
+body {
+    margin: 100px;
+    padding: 100px;
+}
+
+.img-logo{
+    width: 37.33px;
+    height: 37.33px;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+#span-title{
+    display: inline-block;
+    vertical-align: middle;
+    color: #585858;
+    border-bottom: 0;
+    font-weight: 900;
+    letter-spacing: 0.35em;
+    margin: 0 0 0.1em 0;
+}
+
+#span-title:hover {
+    color: #E7746F;
+    transition: 0.6s;
+}
+
+button span:hover{
+    color: #E7746F;
+    transition: 0.6s;
+}
+
+button {
+    width: 74.66px;
+    height: 56px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    
+}
+
+button span{
+    margin: 2px;
+    width: 50%;
+    height: 3px;
+    background-color: #585858;
+}
+
