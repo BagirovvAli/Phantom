@@ -146,12 +146,15 @@ li a {
     padding: 50px;
 }
 
-:not(:last-child) ul li{
+ul li{
     text-decoration: none;
     list-style: none;
     color: #fff;
-    padding: 50px 0px 50px 0px;
-    border-bottom :solid 1px rgba(255, 255, 255, 0.15);
+    padding: 10px 0px 40px 0px;
+}
+
+ul li:not(:last-child) {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
     
 }
 
@@ -159,4 +162,13 @@ ul li :hover{
     color: #fff;
 }   
 
+h2{
+    font-weight: 800;
+    line-height: 2.5em;
+    margin: 0 0 2em 0;
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    font-size: 5.1em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
 
