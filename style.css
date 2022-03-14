@@ -1,0 +1,162 @@
+body {
+    margin: 100px;
+    padding: 100px;
+}
+
+.img-logo {
+    width: 37.33px;
+    height: 37.33px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+#span-title {
+    display: inline-block;
+    vertical-align: middle;
+    color: #585858;
+    border-bottom: 0;
+    font-weight: 900;
+    letter-spacing: 0.35em;
+    margin: 0 0 0.1em 10px;
+
+}
+
+
+#span-title:hover {
+    color: #E7746F;
+    transition: 0.5s;
+}
+
+button:hover span {
+    background: #E7746F;
+    transition: 0.5s;
+}
+
+
+button {
+    width: 74.66px;
+    height: 56px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-right: 0px;
+    transition: .4s;
+}
+
+body.menu-opened .inner-second {
+    right: 0;
+    opacity: 1;
+}
+
+body.menu-opened .menu-btn {
+    margin-right: 425px;
+}
+
+body.menu-opened .first-child {
+    transform: translateY(-6px) rotate(-45deg)
+}
+
+body.menu-opened .second-child {
+    opacity: 0;
+}
+
+body.menu-opened .last-child {
+    transform: translateY(-20px) rotate(-130deg)
+}
+
+button span {
+    margin: 2px;
+    width: 50%;
+    height: 3px;
+    background-color: #585858;
+    transition: .4s;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.inner {
+    margin-bottom: 50px;
+}
+
+h1 {
+    letter-spacing: -0.035em;
+    color: #585858;
+    margin-bottom: 50px;
+}
+
+.how-a {
+    font-size: 1.20em;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 1em 0;
+    letter-spacing: -0.035em;
+    color: inherit;
+    text-decoration: none;
+    color: #585858;
+    border-bottom: 0.1px dashed;
+}
+
+.how-a:hover {
+    color: #E7746F;
+    transition: 0.5s;
+    border-bottom: none;
+}
+
+header p {
+    margin-top: -1em;
+}
+
+p {
+    margin: 0 0 2em 0;
+    color: #585858;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.inner-second {
+    background-color: #585858;
+    position: fixed;
+    right: -100%;
+    width: 500px;
+    height: 100vh;
+    top: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+li a {
+    margin: 0 0 2em 0;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.inner-second {
+    text-decoration: none;
+    color: #fff;
+    padding: 50px;
+}
+
+:not(:last-child) ul li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 50px 0px 50px 0px;
+    border-bottom :solid 1px rgba(255, 255, 255, 0.15);
+    
+}
+
+ul li :hover{
+    color: #fff;
+}   
+
+
